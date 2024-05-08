@@ -1,0 +1,15 @@
+# BUSCO version is: 2.0.1 
+# The lineage dataset is: embryophyta_odb9 (Creation date: 2016-02-13, number of species: 30, number of BUSCOs: 1440)
+# To reproduce this run: python /projects/btl/alumni/shammond/software/busco/BUSCO.py -i WS77111-v3.1000plus.1000plus.fa -o WS77111-v3.1000plus -l /projects/btl/alumni/shammond/software2/busco/busco-datasets/embryophyta_odb9/ -m genome -c 48 -sp arabidopsis
+#
+# Summarized benchmarking in BUSCO notation for file WS77111-v3.1000plus.1000plus.fa
+# BUSCO was run in mode: genome
+
+	C:45.7%[S:37.2%,D:8.5%],F:5.5%,M:48.8%,n:1440
+
+	658	Complete BUSCOs (C)
+	535	Complete and single-copy BUSCOs (S)
+	123	Complete and duplicated BUSCOs (D)
+	79	Fragmented BUSCOs (F)
+	703	Missing BUSCOs (M)
+	1440	Total BUSCO groups searched
